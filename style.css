@@ -1,0 +1,18 @@
+body{
+    font-family:'open sans' , sans-serif;
+    background: #1E1E2E;
+    color: #89FAC4;
+}
+#inicio{
+    border: 1px solid red;
+    font-weight: 800;
+}
+#apresentacao{
+    border: 1px solid red;
+    font-weight: 500;
+}
+#topicos{
+    border: 1px solid red;
+    font-weight: 900;
+
+}
