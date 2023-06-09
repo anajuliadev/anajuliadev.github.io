@@ -4,15 +4,44 @@ body{
     color: #89FAC4;
 }
 #inicio{
-    border: 1px solid red;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-style: italic;
+}
+#nome{
+    text-align: left;
+    padding: 0 100px 0 100px;
     font-weight: 800;
+    font-size: 50px;
 }
 #apresentacao{
     border: 1px solid red;
-    font-weight: 500;
+    text-align: left;
+
+    
 }
 #topicos{
-    border: 1px solid red;
-    font-weight: 900;
+   
+    
 
+}
+.pastinha{
+    border-radius: 100px 100px 0 0;
+    padding: 0 100px 0 100px;
+}
+#pastinha-academico{
+    background-color: #1C1B29;
+}
+#pastinha-atividades{
+    background-color: #171622;
+}
+#pastinha-contato{
+    background-color: #15141F;
+}
+#pastinha-linguagens{
+    background-color: #13121C;
+}
+#pastinha-projetos{
+    background-color: #111019;
 }
