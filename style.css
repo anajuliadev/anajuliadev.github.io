@@ -73,6 +73,9 @@ body{
 #pastinha-linguagens{
     background-color: #13121C;
 }
+.caixinha-linguagem p{
+    font-weight: 600;
+}
 #pastinha-projetos{
     background-color: #111019;
 }
