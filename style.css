@@ -64,6 +64,38 @@ body{
 .caixinha1 p{
     margin:0;
 }
+#setinha{
+    text-align: center;
+}
+.certificados{
+    font-style: italic;
+    text-align: center;
+
+}
+
+.img-contato img{
+    max-width: 50px;
+}
+.caixa-contatos{
+    
+    display:flex;
+    padding: 20px 0 0 0;
+}
+
+.pai-rede, .pai-contato{
+    display:block;
+    height: 60px;
+    line-height: 60px;
+}
+.rede , .img-contato{
+    
+    vertical-align: middle;
+    display: inline-block;
+    line-height: 1;
+}
+.rede{
+    padding: 0 0 0 20px;
+}
 #pastinha-atividades{
     background-color: #171622;
 }
