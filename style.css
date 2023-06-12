@@ -96,6 +96,13 @@ body{
 .rede{
     padding: 0 0 0 20px;
 }
+
+.caixinha-linguagem{
+    display:flex;
+}
+.caixinha-linguagem p{
+    width: 33.33%;
+}
 #pastinha-atividades{
     background-color: #171622;
 }
