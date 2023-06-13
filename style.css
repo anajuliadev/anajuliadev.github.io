@@ -103,6 +103,23 @@ body{
 .caixinha-linguagem p{
     width: 33.33%;
 }
+
+.pai-projeto{
+    border: 1px solid red;
+    display: flex;
+}
+.site, .link{
+    border: 1px solid red;
+}
+.nome-projeto{
+    font-weight: 700;
+}
+.link{
+    width: 40%;
+    text-align: right;
+    font-style: italic;
+}
+
 #pastinha-atividades{
     background-color: #171622;
 }
