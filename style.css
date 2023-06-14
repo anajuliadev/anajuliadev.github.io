@@ -3,6 +3,25 @@ body{
     background: #1E1E2E;
     color: #89FAC4;
 }
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#introducao{
+    width: 100%;
+}
+#dados{
+    width: 40%;
+
+}
+#foto{
+    width: 60%;
+    text-align: center;
+}
 #inicio{
     text-align: center;
     letter-spacing: 2px;
@@ -11,19 +30,19 @@ body{
 }
 #nome{
     text-align: left;
-    padding: 0 100px 0 100px;
+    padding: 0 60px;
     font-weight: 800;
     font-size: 50px;
 }
 #cargo{
     text-align: left;
-    padding: 0 100px 0 100px;
+    padding: 0 60px ;
 
 }
 #apresentacao{
     
     text-align: left;
-    padding: 0 100px 0 100px;
+    padding: 0 60px;
       
 }
 #topicos{
@@ -32,8 +51,13 @@ body{
 }
 .pastinha{
     border-radius: 50px 50px 0 0;
-    padding: 0 100px 0 100px;
+    padding: 0 60px;
+    display: flex;
+    flex-direction: column;
+
 }
+
+/*CSS ACADEMICO*/
 #pastinha-academico{
     background-color: #1C1B29;
      
@@ -61,6 +85,7 @@ body{
 .instituicao{
     font-weight: 300;
 }
+/*CSS ATIVIDADES*/
 .caixinha1 p{
     margin:0;
 }
@@ -97,15 +122,17 @@ body{
     padding: 0 0 0 20px;
 }
 
+/*CSS LINGUAGENS*/
 .caixinha-linguagem{
     display:flex;
+    flex-wrap: wrap;
 }
 .caixinha-linguagem p{
     width: 33.33%;
 }
 
+/*CSS PROJETO*/
 .pai-projeto{
-    border: 1px solid red;
     display: flex;
 }
 .site, .link{
@@ -114,11 +141,16 @@ body{
 .nome-projeto{
     font-weight: 700;
 }
+.descricao{
+    font-weight: 300;
+}
 .link{
     width: 40%;
     text-align: right;
     font-style: italic;
 }
+
+
 
 #pastinha-atividades{
     background-color: #171622;
@@ -134,4 +166,17 @@ body{
 }
 #pastinha-projetos{
     background-color: #111019;
+}
+
+/*FECHAMENTO DE PASTAS*/
+.pastinha-dados.fechada{
+    display:none;
+
+}
+.pastinha-dados.aberta{
+    display: block;
+    
+}
+.pastinha h2{
+    margin: 30px 0;
 }
