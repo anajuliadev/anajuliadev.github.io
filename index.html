@@ -8,6 +8,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="./script.js"></script>
         <title>anajulia</title>
     </head>
     <body>
@@ -20,13 +22,13 @@
                 <h2 id="cargo">Front-End Developer</h2>
                 <p id="apresentacao">Tenho 20 anos de idade, atualmente estou estudando para iniciar minha carreira como desenvolvedora FullStack, mais precisamente, Front-end.</p>
                 <div id="topicos">
-                    <div class="pastinha" id="pastinha-academico">
+                    <div class="pastinha"  id="pastinha-academico">
                         <h2>< Acadêmico ></h2> 
                         <div class="pastinha-dados aberto"> 
-                            >
+                            
                             <div class="caixinha-ensino">
                                 <div class="caixinha1">
-                                    <p class="nivel">Ensino Superior em Análise e Desenvolvimento de Sistemas</p>
+                                    <p class="nivel"></p>Ensino Superior em Análise e Desenvolvimento de Sistemas</p>
                                     <p class="instituicao">Unopar - cursando</p>
                                 </div>
                                 <div class="caixinha-ano">
@@ -36,7 +38,7 @@
                         </div>
                     </div>
 
-                    <div class="pastinha" id="pastinha-atividades">
+                    <div class="pastinha"  id="pastinha-atividades">
                         <h2>< Atividades Extras-Curriculares ></h2>
                         <div class="pastinha-dados fechada"> 
                             <div class="caixinha-ensino">
@@ -108,7 +110,7 @@
                         </div>
                     </div>
                 
-                    <div class="pastinha" id="pastinha-contato">
+                    <div class="pastinha"  id="pastinha-contato">
                         
                         <h2 class="caixinha-ensino">< Contato ></h2>
                         <div class="pastinha-dados fechada"> 
@@ -166,7 +168,7 @@
 
                     </div>
 
-                    <div class="pastinha" id="pastinha-linguagens">
+                    <div class="pastinha"  id="pastinha-linguagens">
                         <h2 class="caixinha-ensino">< Linguagens ></h2>
                         <div class="pastinha-dados fechada"> 
                             <div class="caixinha-linguagem">
@@ -181,7 +183,14 @@
                         </div>
                     </div>
 
-                    <div class="pastinha" id="pastinha-projetos">          
+                    <script>
+                        $(".pastinha-dados").click(function(){
+                            $(".pastinha-dados").removeClass("aberto");
+                            $(this).addClass("aberto");
+                        });
+                    </script>
+
+                    <div class="pastinha"  id="pastinha-projetos">          
                         <h2>< Projetos ></h2>
                         <div class="pastinha-dados fechada"> 
                             <div class="pai-projeto">
@@ -207,9 +216,10 @@
                 </div>
                 
             </div>
-            <div class="autor">
-                <p>Developement by <span>Ana Júlia</span></p>
-            </div>
+
+        </div>
+        <div class="autor">
+            <p>Developement by <span>Ana Júlia</span></p>
         </div>
     </body>
 </html> 

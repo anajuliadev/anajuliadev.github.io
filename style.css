@@ -2,6 +2,7 @@ body{
     font-family:'open sans' , sans-serif;
     background: #1E1E2E;
     color: #89FAC4;
+    margin: 0;
 }
 #container{
     display: flex;
@@ -191,4 +192,21 @@ body{
     width: 400px;
     height: auto;
     border-radius: 210px 90px;
+    box-shadow: 16px 9px 0px 13px;
+}
+
+
+/*AUTOR*/
+
+.autor{
+    background-color: #12102267;
+    
+}
+.autor p{
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+.autor p span{
+    font-weight: 700;
 }
