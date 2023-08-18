@@ -48,13 +48,18 @@ body{
    padding-top: 30px;
 }
 .pastinha{
-    border-radius: 50px 50px 0 0;
+    border-radius: 0 50px 50px 0;
     padding: 0 60px;
     display: flex;
     flex-direction: column;
 
 }
-
+.pastinha:first-child{
+    border-radius: 50px 50px 50px 0;
+}
+.pastinha:last-child{
+    border-radius: 0 50px 50px 50px;
+}
 /*CSS ACADEMICO*/
 #pastinha-academico{
     background-color: #1C1B29;
@@ -95,22 +100,23 @@ body{
     text-align: center;
 
 }
+/*CSS CONTATOS*/
 
-.img-contato img{
-    max-width: 50px;
-}
 .caixa-contatos{
-    
     display:flex;
     padding: 20px 0 0 0;
 }
+.icone-social svg{
+    max-width: 50px;
+}
+
 
 .pai-rede, .pai-contato{
     display:block;
     height: 60px;
     line-height: 60px;
 }
-.rede , .img-contato{
+.rede , .icone-social{
     
     vertical-align: middle;
     display: inline-block;
@@ -130,23 +136,32 @@ body{
 }
 
 /*CSS PROJETO*/
-.pai-projeto{
+.caixa-projeto{
     display: flex;
-}
-.site, .link{
-    border: 1px solid red;
+    padding-bottom: 20px;
 }
 .nome-projeto{
     font-weight: 700;
 }
 .descricao{
     font-weight: 300;
+    width: 300px;
+    
+}
+.caixinha-site{
+    width: 80%;
 }
 .link{
-    width: 40%;
-    text-align: right;
+    width: 20%;
     font-style: italic;
+    display: flex;
+    align-items: center;
 }
+.link a{
+    text-decoration: none;
+    color: #89FAC4;
+}
+
 
 
 
@@ -195,12 +210,23 @@ body{
     box-shadow: 16px 9px 0px 13px;
 }
 
+.pastinha-dados{
+    padding-top: 20px;
+}
+/*ATIVIDADES EXTRA-CURRICULARES*/
+
+.agrupe-certificado a{
+    text-decoration: none;
+    color: #89FAC4;
+}
+.certificados{
+    padding-bottom: 30px;
+}
 
 /*AUTOR*/
 
 .autor{
-    background-color: #12102267;
-    
+    background-color: #12102267;    
 }
 .autor p{
     text-align: center;
@@ -209,4 +235,11 @@ body{
 }
 .autor p span{
     font-weight: 700;
+}
+
+.pastinha.aberto .pastinha-dados{
+    display: block;
+}
+.pastinha.fechado .pastinha-dados{
+    display: none;
 }

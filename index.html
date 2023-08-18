@@ -9,10 +9,11 @@
 
         <link rel="stylesheet" href="style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="./script.js"></script>
+        <script defer src="./script.js"></script>
         <title>anajulia</title>
     </head>
     <body>
+        
         <div id="container">
             <div id="introducao">
                 <h1 id="inicio"> Olá, bem vindo(a) <br> ao meu cantinho! ^~^</h1>
@@ -20,11 +21,11 @@
             <div id="dados">
                 <h1 id="nome">Ana Júlia</h1>
                 <h2 id="cargo">Front-End Developer</h2>
-                <p id="apresentacao">Tenho 20 anos de idade, atualmente estou estudando para iniciar minha carreira como desenvolvedora FullStack, mais precisamente, Front-end.</p>
+                <p id="apresentacao">Tenho 20 anos de idade, atualmente estou estudando para iniciar minha carreira como desenvolvedora Web, Front-end.</p>
                 <div id="topicos">
-                    <div class="pastinha"  id="pastinha-academico">
+                    <div class="pastinha fechado"  id="pastinha-academico">
                         <h2>< Acadêmico ></h2> 
-                        <div class="pastinha-dados aberto"> 
+                        <div class="pastinha-dados "> 
                             
                             <div class="caixinha-ensino">
                                 <div class="caixinha1">
@@ -38,9 +39,9 @@
                         </div>
                     </div>
 
-                    <div class="pastinha"  id="pastinha-atividades">
+                    <div class="pastinha fechado"  id="pastinha-atividades">
                         <h2>< Atividades Extras-Curriculares ></h2>
-                        <div class="pastinha-dados fechada"> 
+                        <div class="pastinha-dados "> 
                             <div class="caixinha-ensino">
                                 <div class="caixinha1">
                                     <p class="nivel">Informática básica</p>
@@ -101,36 +102,46 @@
                                     <p class=""> concluido</p>
                                 </div>
                             </div>
-                            <div id="setinha">
-                                <img src="./assets/setinha.png" width="30">
-                            </div>
-                            <div 
-                                class="certificados">baixar certificados
+                            <div class="agrupe-certificado">
+                                <a href="https://drive.google.com/drive/folders/11IV7bm0ZWsDJNVgoB4z1aliHmhnd33mF?usp=sharing" target="_blank">
+                                    <div id="setinha">
+                                        <img src="./assets/setinha.png" width="30">
+                                    </div>
+                                    <div class="certificados">
+                                        baixar certificados
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 
-                    <div class="pastinha"  id="pastinha-contato">
+                    <div class="pastinha fechado"  id="pastinha-contato">
                         
                         <h2 class="caixinha-ensino">< Contato ></h2>
                         <div class="pastinha-dados fechada"> 
                             <div class="caixa-contatos">
                                 <div class="pai-contato">
-                                    <div class="img-contato">
-                                        <img src="./assets/linkedin_00000107549391358224351290000015646826172178843065_.png" alt="Linkedin">
+                                    <div class="icone-social">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 0.5C5.64873 0.5 0.5 5.64872 0.5 12V28.1455C0.5 34.4967 5.64872 39.6455 12 39.6455H28.1455C34.4967 39.6455 39.6455 34.4967 39.6455 28.1455V12C39.6455 5.64873 34.4967 0.5 28.1455 0.5H12ZM3.5 12C3.5 7.30558 7.30558 3.5 12 3.5H28.1455C32.8399 3.5 36.6455 7.30558 36.6455 12V28.1455C36.6455 32.8399 32.8399 36.6455 28.1455 36.6455H12C7.30558 36.6455 3.5 32.8399 3.5 28.1455V12ZM12.5018 12.9195C13.5563 12.9195 14.4112 12.0646 14.4112 11.0101C14.4112 9.95548 13.5563 9.10059 12.5018 9.10059C11.4472 9.10059 10.5923 9.95548 10.5923 11.0101C10.5923 12.0646 11.4472 12.9195 12.5018 12.9195ZM14.4112 15.7836V30.1046H10.5923V15.7836H14.4112ZM31.5965 30.1046H27.7775V22.9718C27.7775 20.5974 26.8677 19.4908 24.9133 19.4908L21.0944 19.5653V30.1046H17.2754V15.8208L24.8761 15.6719C28.1441 15.6719 31.5965 17.5899 31.5965 22.9718V30.1046Z" fill="white"/>
+                                        </svg>
+                                            
                                     </div>
                                 </div>
-                                    <div class="pai-rede">
-                                    <div class="rede">
-                                        <p>Linkedin</p>
-                                    </div>
+                                <div class="pai-rede">
+                                        <div class="rede">
+                                            <p>Linkedin</p>
+                                        </div>
                                 </div>
                             </div>
                             
                             <div class="caixa-contatos">
                                 <div class="pai-contato">
-                                    <div class="img-contato">
-                                        <img src="./assets/instagram.png" alt="instagram">
+                                    <div class="icone-social">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7363 0.5C5.38506 0.5 0.236328 5.64872 0.236328 12V28.1455C0.236328 34.4967 5.38505 39.6455 11.7363 39.6455H27.8818C34.2331 39.6455 39.3818 34.4967 39.3818 28.1455V12C39.3818 5.64873 34.2331 0.5 27.8818 0.5H11.7363ZM3.23633 12C3.23633 7.30558 7.04191 3.5 11.7363 3.5H27.8818C32.5762 3.5 36.3818 7.30558 36.3818 12V28.1455C36.3818 32.8399 32.5762 36.6455 27.8818 36.6455H11.7363C7.0419 36.6455 3.23633 32.8399 3.23633 28.1455V12ZM12.6546 13.0095C14.3062 11.907 16.248 11.3185 18.2345 11.3185C19.5543 11.3153 20.8617 11.5726 22.0819 12.0757C23.3018 12.5788 24.4103 13.3178 25.3436 14.2502C26.2769 15.1826 27.0165 16.29 27.5201 17.509C28.0238 18.7278 28.2813 20.0339 28.2781 21.3526C28.2781 23.3371 27.6892 25.2771 26.5854 26.9274C25.4818 28.5774 23.9133 29.8635 22.078 30.6229C20.2427 31.3823 18.2234 31.581 16.275 31.1939C14.3268 30.8067 12.5372 29.851 11.1326 28.4479C9.72799 27.0446 8.77142 25.2566 8.38391 23.3102C7.99638 21.3638 8.19526 19.3462 8.95544 17.5127C9.71562 15.6792 11.0029 14.1121 12.6546 13.0095ZM14.6007 26.7857C15.6763 27.5037 16.9408 27.887 18.2345 27.887C19.9691 27.887 21.6329 27.1986 22.8594 25.9732C24.086 24.7478 24.7751 23.0855 24.7751 21.3526C24.7751 20.0601 24.3914 18.7968 23.6727 17.7222C22.9542 16.6478 21.9327 15.8102 20.7375 15.3156C19.5423 14.821 18.2274 14.6916 16.9584 14.9438C15.6898 15.1959 14.5242 15.8182 13.6095 16.732C12.6949 17.6458 12.072 18.8103 11.8196 20.0778C11.5672 21.3455 11.6968 22.6592 12.1918 23.8533C12.6868 25.0473 13.5253 26.0679 14.6007 26.7857ZM30.6334 12.2621C30.9026 11.8597 31.0462 11.3865 31.0462 10.9024C31.0462 10.2534 30.7882 9.63086 30.3287 9.17191C29.8694 8.71293 29.2462 8.45508 28.5965 8.45508C28.112 8.45508 27.6385 8.59862 27.2355 8.86755C26.8328 9.13647 26.5187 9.5187 26.3333 9.96588C26.1478 10.4131 26.0993 10.9051 26.1939 11.3799C26.2885 11.8546 26.5219 12.2907 26.8644 12.633C27.2071 12.9752 27.6434 13.2083 28.1186 13.3028C28.5938 13.3972 29.0865 13.3487 29.534 13.1635C29.9816 12.9783 30.3642 12.6646 30.6334 12.2621Z" fill="white"/>
+                                        </svg>
+                                            
                                     </div>
                                 </div>
                                 <div class="pai-rede">
@@ -141,8 +152,12 @@
                             </div>
                             <div class="caixa-contatos">
                                 <div class="pai-contato">
-                                    <div class="img-contato">
-                                        <img src="./assets/github.png" alt="Github">
+                                    <div class="icone-social">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 11.5C0 5.14872 5.14873 0 11.5 0H27.6455C33.9967 0 39.1455 5.14873 39.1455 11.5V27.6455C39.1455 33.9967 33.9967 39.1455 27.6455 39.1455H11.5C5.14872 39.1455 0 33.9967 0 27.6455V11.5ZM11.5 3C6.80558 3 3 6.80558 3 11.5V27.6455C3 32.3399 6.80558 36.1455 11.5 36.1455H27.6455C32.3399 36.1455 36.1455 32.3399 36.1455 27.6455V11.5C36.1455 6.80558 32.3399 3 27.6455 3H11.5Z" fill="white"/>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7649 10.3601C11.039 9.77892 11.6528 9.43693 12.2913 9.50963C13.8964 9.69243 15.1669 10.4282 15.9634 11.1116C17.2072 10.5815 18.5753 10.283 20.0704 10.283C21.5463 10.283 22.9141 10.5754 24.1115 11.1029C24.9095 10.4216 26.1778 9.69112 27.7769 9.50957C28.4018 9.43863 29.0046 9.76506 29.2867 10.3272C29.6035 10.9583 29.833 11.7854 29.7781 12.9069C29.7253 13.986 29.505 15.1175 29.3232 15.8558C30.1288 17.2409 30.5614 18.776 30.493 20.4154C30.4929 20.4372 30.4924 20.459 30.4914 20.4808C30.4815 23.0308 29.6958 25.2466 27.9042 26.9115C26.1135 28.5758 23.4393 29.5 19.9957 29.5C16.5524 29.5 13.8767 28.5759 12.0858 26.9115C10.2822 25.2354 9.5 23.0015 9.5 20.4317C9.5 18.9005 9.93528 17.253 10.7442 15.8543C10.5642 15.0771 10.3595 13.9205 10.3153 12.8366C10.27 11.7253 10.4916 10.9394 10.7649 10.3601ZM25.861 13.5718L25.5028 13.9549C25.0405 14.4493 24.3044 14.5728 23.706 14.2564L23.2699 14.0257L23.2685 14.025C22.3995 13.5684 21.3187 13.283 20.0704 13.283C18.8291 13.283 17.7339 13.5638 16.7488 14.0513L16.745 14.0532L16.3116 14.2661C15.7207 14.5564 15.0097 14.4275 14.5583 13.9483L14.2037 13.5718C14.0306 13.3869 13.7268 13.1381 13.3239 12.9235C13.3787 13.7782 13.5531 14.7164 13.6998 15.3159L13.7001 15.3171L13.8049 15.7422C13.9008 16.1311 13.8371 16.5423 13.628 16.8841L13.4093 17.2415C12.8206 18.2067 12.5 19.3886 12.5 20.4317C12.5 22.3585 13.0622 23.7234 14.128 24.714C15.2066 25.7163 17.0637 26.5 19.9957 26.5C22.9276 26.5 24.7833 25.7164 25.862 24.714C26.9284 23.723 27.4915 22.3576 27.4915 20.4317C27.4915 20.4087 27.492 20.3856 27.4931 20.3625C27.4933 20.3461 27.4938 20.3296 27.4946 20.3132C27.5435 19.2543 27.261 18.2317 26.6569 17.2415L26.4322 16.8728C26.2211 16.5261 26.1594 16.1087 26.2613 15.7158L26.3741 15.2812C26.5242 14.704 26.7158 13.763 26.7732 12.9069C26.3543 13.125 26.0385 13.3823 25.861 13.5718Z" fill="white"/>
+                                        </svg>
+                                            
                                     </div>
                                 </div>
                                 <div class="pai-rede">
@@ -153,8 +168,11 @@
                             </div>
                             <div class="caixa-contatos">
                                 <div class="pai-contato">
-                                    <div class="img-contato">
-                                        <img src="./assets/email.png" alt="Email">
+                                    <div class="icone-social">
+                                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.8545 0.5C5.50322 0.5 0.354492 5.64872 0.354492 12V28.1455C0.354492 34.4967 5.50321 39.6455 11.8545 39.6455H27.9999C34.3512 39.6455 39.4999 34.4967 39.4999 28.1455V12C39.4999 5.64873 34.3512 0.5 28 0.5H11.8545ZM3.35449 12C3.35449 7.30558 7.16007 3.5 11.8545 3.5H28C32.6944 3.5 36.4999 7.30558 36.4999 12V28.1455C36.4999 32.8399 32.6944 36.6455 27.9999 36.6455H11.8545C7.16007 36.6455 3.35449 32.8399 3.35449 28.1455V12ZM12.0547 24.9597V17.0914L17.4545 20.8467L17.4545 20.8467C19.1184 22.0038 21.3815 22.0038 23.0455 20.8467L23.0455 20.8467L28.4454 17.0912V24.9597C28.4454 25.13 28.2611 25.4575 27.7909 25.4575H12.7092C12.2391 25.4575 12.0547 25.13 12.0547 24.9597ZM13.5435 14.4727H26.9564L21.3326 18.3837L21.3326 18.3837C20.6983 18.8248 19.8016 18.8248 19.1673 18.3837L13.5435 14.4727ZM9.05469 14.9705C9.05469 12.934 10.7995 11.4727 12.7092 11.4727H27.7909C29.7006 11.4727 31.4454 12.934 31.4454 14.9705V24.9597C31.4454 26.9961 29.7006 28.4575 27.7909 28.4575H12.7092C10.7995 28.4575 9.05469 26.9961 9.05469 24.9597V14.9705Z" fill="white"/>
+                                        </svg>
+                                            
                                     </div>
                                 </div>
                                 <div class="pai-rede">
@@ -168,7 +186,7 @@
 
                     </div>
 
-                    <div class="pastinha"  id="pastinha-linguagens">
+                    <div class="pastinha fechado"  id="pastinha-linguagens">
                         <h2 class="caixinha-ensino">< Linguagens ></h2>
                         <div class="pastinha-dados fechada"> 
                             <div class="caixinha-linguagem">
@@ -183,20 +201,49 @@
                         </div>
                     </div>
 
-                    <div class="pastinha"  id="pastinha-projetos">          
+                    <div class="pastinha fechado"  id="pastinha-projetos">          
                         <h2>< Projetos ></h2>
                         <div class="pastinha-dados fechada"> 
                             <div class="pai-projeto">
-                                <div class="caixinha-site">
-                                    <div class="nome-projeto">
-                                        <p >Site-Currículo</p>
+                               
+                                <div class="caixa-projeto">
+                                    <div class="caixinha-site">
+                                        <div class="nome-projeto">
+                                            <p >Caffeine</p>
+                                        </div>
+                                        <div class="descricao">
+                                            <p>Fiz um site baseado em um design de referência, onde apliquei meus conhecimentos e aprendizados de HTML , CSS e um pouco de Javascript para o menu hamburguer</p>
+                                        </div>
                                     </div>
-                                    <div class="descricao">
-                                        <p>Criei este site para praticar minhas habilidades e estudos e com objetivo de ter um currículo interativo e voltado ao que eu gosto de fazer.apliquei meus estudos e conhecimento.</p>
+                                    <div class="link">
+                                        <a href="https://github.com/anajuliadev/caffeine" target="_blank">código fonte</a> 
                                     </div>
                                 </div>
-                                <div class="link">
-                                    <p>código fonte</p>
+                                <div class="caixa-projeto">
+                                    <div class="caixinha-site">
+                                        <div class="nome-projeto">
+                                            <p >Linktree</p>
+                                        </div>
+                                        <div class="descricao">
+                                            <p>Um site de links.</p>
+                                        </div>
+                                    </div>
+                                    <div class="link">
+                                        <a href="https://github.com/anajuliadev/linktree" target="_blank">código fonte</a> 
+                                    </div>
+                                </div>
+                                <div class="caixa-projeto">
+                                    <div class="caixinha-site">
+                                        <div class="nome-projeto">
+                                            <p >Site Currículo</p>
+                                        </div>
+                                        <div class="descricao">
+                                            <p>Este site</p>
+                                        </div>
+                                    </div>
+                                    <div class="link">
+                                        <a href="https://github.com/anajuliadev/caffeine" target="_blank">código fonte</a> 
+                                    </div>
                                 </div>
                             </div>
                         </div>
