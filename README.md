@@ -1,2 +1,0 @@
-# anajulia
- Site-Curriculo
