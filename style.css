@@ -1,0 +1,69 @@
+@import url('./css/erode.css');
+
+:root{
+    --text-color: #ffffff;
+    --ascent-color: #502886;
+    --font-padrao: 'Inter' , sans-serif;
+    --font-title: 'Erode-Variable';
+}
+body{
+    background-color: #181818;
+    font-family: var(--font-padrao);
+    
+}
+/*CABEÇALHO*/
+
+.info-inicial p{
+    margin: 0;
+}
+.info-inicial .apresentacao{
+    font-family: var(--font-title);
+    font-size: 60px;
+    color: var(--text-color);
+    font-weight: 300;
+}
+.info-inicial .name{
+    font-family: var(--font-title);
+    font-size: 100px;
+    font-weight: 700;
+    color: var(--ascent-color);
+}
+
+.info-area {
+    background-color: var(--ascent-color);
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+}
+.info-area p{
+    margin: 0;
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.info-descricao p{
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.info-linguagens p{
+    color: var(--text-color);
+    font-weight: 100;
+    opacity: 0.5;
+}
+
+.button-ver-mais a{
+    text-decoration: none;
+}
+.button-ver-mais span{
+    color: var(--text-color);
+    opacity: 0.7;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+}
+.button-ver-mais svg{
+    width: 16px;
+}
