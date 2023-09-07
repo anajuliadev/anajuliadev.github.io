@@ -67,3 +67,80 @@ body{
 .button-ver-mais svg{
     width: 16px;
 }
+
+
+/*PAGE-LINGUAGENS*/
+
+.info-title{
+    color: var(--text-color);
+    font-family: var(--font-title);
+    font-size: 30px;
+}
+.tipos-linguagem{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+}
+.tipo{
+    display: flex;
+    background-color: #502886;
+    margin-right: 15px;
+    padding: 16px;
+    border-radius: 9px;
+}
+.tipo svg{
+    width: 50px;
+    padding-right: 8px;
+}
+
+.info-linguagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.info-linguagem p{
+    color: var(--text-color);
+    margin: 0;
+}
+.info-linguagem p:first-child{
+    font-weight: 600;
+}
+.info-linguagem p:last-child{
+    font-size: 15px;
+}
+
+
+/*PAGE-PROJETOS*/
+
+.projetos{
+    display: flex;
+}
+.imagem-projeto{
+    margin-right: 40px;
+}
+
+.info-projeto p{
+    color: var(--text-color);    
+}
+.info-projeto p:first-child{
+    font-family: var(--font-title);
+    font-weight: 500;
+    font-size: 30px;
+}
+.info-projeto p:last-child{
+    opacity: 0.6;
+}
+.button-projeto{
+    background-color: #502886;
+    border-radius: 18px;
+    padding: 7px;
+    display: inline-block;
+    margin-right: px;
+   
+}
+.button-projeto a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 14px;
+    
+}
