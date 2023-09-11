@@ -130,17 +130,28 @@ body{
 .info-projeto p:last-child{
     opacity: 0.6;
 }
-.button-projeto{
-    background-color: #502886;
-    border-radius: 18px;
-    padding: 7px;
-    display: inline-block;
-    margin-right: px;
-   
-}
+
 .button-projeto a{
+    background-color: var(--ascent-color);
+    border-radius: 10px;
     text-decoration: none;
+    font-style: italic;
     color: var(--text-color);
     font-size: 14px;
-    
+    padding: 6px 17px;
+    margin-right: 20px;   
+}
+
+.pai-projeto .button-ver-mais{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*EXPERIENCIA*/
+
+.linha-vertical{
+    height: 150px;
+    border-left: 1px solid #ffffff;
+    margin-left: 8px;
 }
