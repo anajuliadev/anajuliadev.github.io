@@ -74,7 +74,8 @@ body{
 .info-title{
     color: var(--text-color);
     font-family: var(--font-title);
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 500;
 }
 .tipos-linguagem{
     display: flex;
@@ -158,33 +159,36 @@ body{
 .pai-cargo{
     display: flex;
 }
-.cargo{
+.info-experiencia{
     margin-left: 50px;
 }
-.cargo p{
+.info-experiencia p{
     font-family: var(--font-title);
     color: var(--text-color);
+}
+.info-experiencia .cargo{
     font-size: 35px;
     font-weight: 600;
+    margin: 10px 0;
 }
-.agrupe{
+.agrupe-cargo{
     display: flex;
     align-items: center;
 }
-.cargo .agrupe p{
+.info-experiencia .agrupe-cargo p{
     font-family: var(--font-padrao);
     font-size: 20px;
     
 }
-.cargo .agrupe .empresa{
+.info-experiencia .agrupe-cargo .empresa{
     text-transform: uppercase;
     font-weight: 600;
     opacity: 0.5;
 }
-.cargo .agrupe .button{
+.info-experiencia .agrupe-cargo .button{
     margin-left: 30px;
 }
-.cargo .agrupe .button p{
+.info-experiencia .agrupe-cargo .button p{
     margin: 0;
     color: var(--text-color);
     font-style: italic;
@@ -195,7 +199,7 @@ body{
     padding: 8px 20px;
     border-radius: 12px;
 }
-.cargo .desc{
+.info-experiencia .atividades-cargo{
     font-weight: 200;
     font-size: 20px;
     font-family: var(--font-padrao);
