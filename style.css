@@ -149,6 +149,25 @@ body{
 }
 
 
+h3{
+    font-size: 50px;
+    font-weight: 600;
+}
+h4{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: var(--font-title);
+    color: var(--text-color);
+    
+}
+h5{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-color);
+    opacity: 0.5;
+
+}
 /*EXPERIENCIA*/
 
 /*.linha-vertical{
@@ -179,11 +198,6 @@ body{
     font-family: var(--font-padrao);
     font-size: 20px;
     
-}
-.info-experiencia .agrupe-cargo .empresa{
-    text-transform: uppercase;
-    font-weight: 600;
-    opacity: 0.5;
 }
 .info-experiencia .agrupe-cargo .button{
     margin-left: 30px;
