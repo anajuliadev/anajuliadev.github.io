@@ -1,13 +1,17 @@
 @import url('./css/erode.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 :root{
+
+    --padrao-background-color:#181818;
+    --variavel-background-color:#1C1C1C;
     --text-color: #ffffff;
     --ascent-color: #502886;
     --font-padrao: 'Inter' , sans-serif;
     --font-title: 'Erode-Variable';
 }
 body{
-    background-color: hsl(0, 0%, 9%);
+    margin: 0;
+    background-color: var(--padrao-background-color);
     font-family: var(--font-padrao);
     
 }
@@ -71,6 +75,10 @@ body{
 
 /*PAGE-LINGUAGENS*/
 
+.pai-linguagem , .pai-experiencia , .pai-curso{
+    background-color: var(--variavel-background-color);
+    padding: 20px 0px 20px 0;
+}
 .info-title{
     color: var(--text-color);
     font-family: var(--font-title);
@@ -152,13 +160,14 @@ body{
 h3{
     font-size: 50px;
     font-weight: 600;
+    margin: 10px 0;
 }
 h4{
     font-size: 35px;
     font-weight: 600;
     font-family: var(--font-title);
     color: var(--text-color);
-    
+    margin: 15px 0 15px 0;
 }
 h5{
     font-size: 20px;
@@ -166,7 +175,7 @@ h5{
     text-transform: uppercase;
     color: var(--text-color);
     opacity: 0.5;
-
+    margin: 0;
 }
 /*EXPERIENCIA*/
 
@@ -199,10 +208,10 @@ h5{
     font-size: 20px;
     
 }
-.info-experiencia .agrupe-cargo .button{
+.button{
     margin-left: 30px;
 }
-.info-experiencia .agrupe-cargo .button p{
+.button p{
     margin: 0;
     color: var(--text-color);
     font-style: italic;
@@ -217,4 +226,34 @@ h5{
     font-weight: 200;
     font-size: 20px;
     font-family: var(--font-padrao);
+}
+
+/*FORMAÇÂO*/
+
+.agrupe-formacao{
+    display:flex;
+    align-items: center;
+}
+.button{
+    display: inline-block;
+}
+
+
+/*CURSOS*/
+
+.agrupe-curso{
+    display: flex;
+    flex-wrap: wrap;
+}
+.info-curso{
+    margin-right: 200px;
+}
+.agrupe-inst{
+    display: flex;
+    align-items: center;
+}
+
+
+.pai-linguagem , .pai-projeto , .pai-experiencia , .pai-formacao , .pai-curso{
+    padding: 50px;
 }
