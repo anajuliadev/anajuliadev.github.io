@@ -15,8 +15,61 @@ body{
     font-family: var(--font-padrao);
     
 }
+.agrupe-tudo{
+    display: flex;
+}
+.container{
+    margin-left: 300px;
+}
+/*MENU*/
+.name-menu p , .cargo-menu p , .agrupe-email p , .agrupe-numero p , .agrupe-idioma p{
+    font-family: var(--font-title);
+}
+.agrupe-email a, .agrupe-numero a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.pai-menu{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    position:fixed;
+    box-sizing: border-box;
+    background-color: var(--ascent-color);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+}
+.info-menu{
+    padding: 50px;
+}
+.name-menu p{
+    margin: 0;
+    font-size: 30px;
+}
+.cargo-menu p{
+    margin: 0;
+    font-size: 20px;
+}
+.pai-menu .button-ver-mais{
+    margin-top: auto;
+    padding: 20px 50px;
+    background-color: var(--padrao-background-color);
+    text-align: center;
+}
+
+
 /*CABEÇALHO*/
 
+.pai-cabecalho{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 0 !important;
+}
 .info-inicial p{
     margin: 0;
 }
@@ -72,7 +125,15 @@ body{
     width: 16px;
 }
 
+.cabecalho-imagem{
+    position: absolute;
+    right: 0;
+}
+.cabecalho-imagem img{
+    height: 660px;
+    border-radius: 80px 0 0 80px;
 
+}
 /*PAGE-LINGUAGENS*/
 
 .pai-linguagem , .pai-experiencia , .pai-curso{
@@ -88,12 +149,13 @@ body{
 .tipos-linguagem{
     display: flex;
     flex-wrap:wrap;
+    gap: 20px;
     width: 100%;
+
 }
 .tipo{
     display: flex;
     background-color: #502886;
-    margin-right: 15px;
     padding: 16px;
     border-radius: 9px;
 }
@@ -124,8 +186,14 @@ body{
 .projetos{
     display: flex;
 }
+.agrupe-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 .imagem-projeto{
     margin-right: 40px;
+    
 }
 
 .info-projeto p{
@@ -254,6 +322,9 @@ h5{
 }
 
 
-.pai-linguagem , .pai-projeto , .pai-experiencia , .pai-formacao , .pai-curso{
+.pai-cabecalho , .pai-linguagem , .pai-projeto , .pai-experiencia , .pai-formacao , .pai-curso{
     padding: 50px;
 }
+
+
+
