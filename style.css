@@ -391,7 +391,18 @@ h5{
     .pai-cabecalho .button-ver-mais span{
         font-size: 17px;
     }
+    .tipos-linguagem .tipo{
+        width: 100%;
+        
+    }
     .projetos{
         flex-direction: column;
     }
+    .index .imagem-projeto{
+        margin: 0;
+    }
+    .index .imagem-projeto img{
+        width: 100%;
+    }
+    
 }
