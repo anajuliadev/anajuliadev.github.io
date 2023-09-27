@@ -15,9 +15,7 @@ body{
     font-family: var(--font-padrao);
     
 }
-.agrupe-tudo{
-    display: flex;
-}
+
 .container{
     margin-left: 300px;
 }
@@ -355,4 +353,45 @@ h5{
     gap: 40px;
     flex-wrap: wrap;
     flex-direction: initial;
+}
+
+
+/*RESPONSIVE*/
+
+
+@media (max-width:480px){
+    
+    .pai-cabecalho , .pai-linguagem , .pai-projeto , .pai-experiencia , .pai-formacao , .pai-curso{
+        padding: 0 50px;
+    }
+
+    .pai-menu{
+        display: none;
+    }
+
+    .container{
+        margin: 0;
+    }
+    .info-inicial .apresentacao{
+        font-size: 40px;
+    }
+    .info-inicial .name{
+        font-size: 70px;
+    }
+    .cabecalho-info{
+        width: 450px;
+        
+    }
+    .cabecalho-imagem{
+        display: none;
+    }
+    .pai-cabecalho .button-ver-mais svg{
+        width: 40px;
+    }
+    .pai-cabecalho .button-ver-mais span{
+        font-size: 17px;
+    }
+    .projetos{
+        flex-direction: column;
+    }
 }
