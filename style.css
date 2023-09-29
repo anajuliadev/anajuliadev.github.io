@@ -364,7 +364,20 @@ h5{
     .pai-cabecalho , .pai-linguagem , .pai-projeto , .pai-experiencia , .pai-formacao , .pai-curso{
         padding: 0 50px;
     }
-
+    .agrupe-cargo , .agrupe-formacao , .agrupe-inst{
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
+    .button{
+        margin: 0;
+        margin-right: 20px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    h5{
+        font-size: 15px;
+    }
     .pai-menu{
         display: none;
     }
@@ -404,5 +417,24 @@ h5{
     .index .imagem-projeto img{
         width: 100%;
     }
+    
+    .pai-cargo svg{
+        display: none;
+    }
+    .info-experiencia{
+        margin: 0;
+    }
+
+    .info-curso{
+        margin: 0;
+    }
+    .pai-curso .button-ver-mais span{
+        font-style: italic;
+    }
+
+
+
+
+
     
 }
