@@ -446,3 +446,18 @@ h5{
     }
     
 }
+
+@media(max-width:1080px){
+    .pai-menu{
+        display: none;
+    }
+    .container{
+        margin: 0;
+    }
+    .cabecalho-info{
+        width: 100%;
+    }
+    .cabecalho-imagem img{
+        display: none;
+    }
+}
