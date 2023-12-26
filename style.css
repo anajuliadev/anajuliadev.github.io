@@ -25,6 +25,9 @@ body{
     font-size: 19px;
 
 }
+.agrupe-dados p{
+    margin-bottom: 0;
+}
 .agrupe-email a, .agrupe-numero a{
     text-decoration: none;
     color: var(--text-color);
