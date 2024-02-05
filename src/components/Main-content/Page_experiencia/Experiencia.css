@@ -1,0 +1,50 @@
+/*EXPERIENCIA*/
+
+.linha-vertical{
+    height: 150px;
+    border-left: 1px solid #ffffff;
+    margin-left: 8px;
+}
+.pai-cargo{
+    display: flex;
+}
+.info-experiencia{
+    margin-left: 50px;
+}
+.info-experiencia p{
+    font-family:  'Inter' , sans-serif;
+    color: #ffffff;
+}
+.info-experiencia .cargo{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.agrupe-cargo{
+    display: flex;
+    align-items: center;
+}
+.info-experiencia .agrupe-cargo p{
+    font-family:  'Inter' , sans-serif;
+    font-size: 20px;
+    
+}
+.button{
+    margin-left: 30px;
+}
+.button p{
+    margin: 0;
+    color: #ffffff;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: #502886;
+    padding: 8px 20px;
+    border-radius: 12px;
+}
+.info-experiencia .atividades-cargo{
+    font-weight: 200;
+    font-size: 20px;
+    font-family:  'Inter' , sans-serif;
+}

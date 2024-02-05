@@ -1,0 +1,64 @@
+/*PAGE-PROJETOS*/
+
+.projetos{
+    display: flex;
+}
+.agrupe-projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.imagem-projeto{
+    margin-right: 40px;
+    
+}
+
+.info-projeto p{
+    color:#ffffff;    
+}
+.info-projeto p:first-child{
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+.info-projeto p:last-child{
+    opacity: 0.6;
+}
+
+.button-projeto a{
+    background-color:#502886;
+    border-radius: 10px;
+    text-decoration: none;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 6px 17px;
+    margin-right: 20px;   
+}
+
+.pai-projeto .button-ver-mais{
+    display: flex;
+    justify-content: center;
+}
+
+
+h3{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px 0 30px 0;
+}
+h4{
+    font-size: 35px;
+    font-weight: 600;
+    font-family:  'Inter' , sans-serif;
+    color:#ffffff;
+    margin: 15px 0 15px 0;
+}
+h5{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    opacity: 0.5;
+    margin: 0;
+}

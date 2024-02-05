@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+    background-color: #181818;
+    font-family:  'Inter' , sans-serif;
+    
+}
+
+.container{
+    margin-left: 300px;
+}

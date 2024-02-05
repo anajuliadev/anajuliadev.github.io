@@ -1,9 +1,14 @@
 import React from 'react';
 import Menu from './components/Menu/Menu';
+import Main from './components/Main-content/Main';
 
 function App() {
   return (
-    <Menu></Menu>
+    <div>
+      <Menu></Menu>
+      <Main></Main>
+
+    </div>
   );
 }
 

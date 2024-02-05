@@ -1,0 +1,45 @@
+/*PAGE-LINGUAGENS*/
+
+.pai-linguagem , .pai-experiencia , .pai-curso{
+    background-color: #1C1C1C;
+    padding: 20px 0px 20px 0;
+}
+.info-title{
+    color: #ffffff;
+    font-family: 'Inter' , sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.tipos-linguagem{
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    width: 100%;
+
+}
+.tipo{
+    display: flex;
+    background-color: #502886;
+    padding: 16px;
+    border-radius: 9px;
+}
+.tipo svg{
+    width: 50px;
+    padding-right: 8px;
+}
+
+.info-linguagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.info-linguagem p{
+    color:#ffffff;
+    margin: 0;
+}
+.info-linguagem p:first-child{
+    font-weight: 600;
+}
+.info-linguagem p:last-child{
+    font-size: 15px;
+}

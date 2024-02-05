@@ -1,0 +1,9 @@
+/*FORMAÇÂO*/
+
+.agrupe-formacao{
+    display:flex;
+    align-items: center;
+}
+.button{
+    display: inline-block;
+}
