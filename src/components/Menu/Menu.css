@@ -1,0 +1,58 @@
+/*MENU*/
+.name-menu p , .cargo-menu p , .agrupe-email p , .agrupe-numero p , .agrupe-idioma p{
+    font-family:  'Inter' , sans-serif;
+    font-size: 19px;
+
+}
+.agrupe-dados p{
+    margin-bottom: 0;
+}
+.agrupe-email a, .agrupe-numero a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.pai-menu{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100vh;
+    position:fixed;
+    box-sizing: border-box;
+    background-color: #502886;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.info-menu{
+    padding: 50px;
+}
+.name-menu p{
+    margin: 0;
+    font-size: 30px;
+}
+.cargo-menu p{
+    margin: 0;
+    font-size: 20px;
+}
+.idioma p{
+    font-family:  'Inter' , sans-serif;
+    font-size: 20px;
+}
+.idioma span{
+    font-weight: 200;
+}
+.pai-menu .button-ver-mais{
+    margin-top: auto;
+    padding: 20px 50px;
+    background-color: #181818;
+    text-align: center;
+}
+.pai-menu .button-ver-mais a svg{
+    margin-right: 10px;
+}
+.pai-menu .button-ver-mais a{
+    color: #ffffff;
+    text-decoration: none;
+}
