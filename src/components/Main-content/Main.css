@@ -8,3 +8,7 @@ body{
 .container{
     margin-left: 300px;
 }
+
+.container .pai-linguagem , .container .pai-projeto , .container .pai-experiencia , .container .pai-formacao , .container .pai-curso{
+    padding: 50px;
+}

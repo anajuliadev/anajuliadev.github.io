@@ -1,4 +1,5 @@
 import './Main.css';
+import Menu from './Menu/Menu'
 import Inicial from './Page_inicial/Inicial';
 import Linguagens from './Page_linguagens/Linguagens';
 import Projetos from './Page_projetos/Projetos';

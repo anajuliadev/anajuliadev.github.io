@@ -1,0 +1,38 @@
+/*PAGE_PROGETOS*/
+
+.projetos-page .projetos{
+    flex-direction: column;
+    width: calc((100% / 3) - 40px);
+}
+.info-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.info-title svg{
+    width: 40px;
+    height: 40px;
+    fill: blueviolet;
+    scale: 1;
+    transition: 0.3s all;
+}
+
+.info-title svg:hover{
+    box-shadow: 0px 0px 5px 0px #b96dffdb;
+    border-radius: 50px;
+    scale: 1.050;
+    transition: 0.3s all;
+}
+.projetos-page .imagem-projeto{
+    margin-right: 0px;
+}
+.projetos-page .imagem-projeto img{
+    width: 100%;
+}
+.projetos-page .agrupe-projetos{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    flex-direction: initial;
+}

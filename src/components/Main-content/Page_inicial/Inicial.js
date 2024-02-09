@@ -8,16 +8,16 @@ const Inicial = () => {
             <div className="cabecalho-info">
                 <div className="info-inicial">
                     <p className="apresentacao">Oi, sou a</p>
-                    <p className="name">ana júlia</p>
+                    <p className="name">Ana Julia</p>
                 </div>
                 <div className="info-area">
                     <p>front-end developer</p>
                 </div>
                 <div className="info-descricao">
-                    <p>Tenho 20 anos de idade, atualmente estou estudando para iniciar minha carreira como desenvolvedora Front-end.</p>
+                    <p>Tenho 20 anos e estou cursando Análise e Desenvolvimento de Sistemas. Atualtemente estou estudando para me aprofundar mais na área de desenvolvimento front-end.</p>
                 </div>
                 <div className="info-linguagens">
-                    <p>HTML // CSS // JavaScript</p>
+                    <p>HTML5 // CSS // Git // GitHub // JavaScript // React</p>
                 </div>
                 <div className="button-ver-mais">
                     <a href="" target="_blank">

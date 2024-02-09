@@ -2,7 +2,11 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    gap: 100px;
     padding-top: 0 !important;
+}
+.cabecalho-info{
+    padding-left: 50px;
 }
 .info-inicial p{
     margin: 0;
@@ -25,6 +29,11 @@
     padding: 10px;
     border-radius: 7px;
     display: inline-block;
+    scale: 1;
+}
+.info-area:hover{
+    scale: 1.025;
+    box-shadow: 2px 1px 5px 5px #91919125;
 }
 .info-area p{
     margin: 0;
@@ -34,6 +43,10 @@
     font-size: 14px;
 }
 
+.info-descricao {
+    width: 100%;
+
+}
 .info-descricao p{
     color: #ffffff;
     font-size: 16px;
@@ -59,12 +72,12 @@
     width: 16px;
 }
 
-.cabecalho-imagem{
+/* .cabecalho-imagem{
     position: absolute;
     right: 0;
-}
+} */
 .cabecalho-imagem img{
-    height: 660px;
+    width: 400px;
     border-radius: 80px 0 0 80px;
 
 }

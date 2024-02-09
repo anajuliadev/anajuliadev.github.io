@@ -24,10 +24,6 @@ const Menu = () => {
                     <div className="agrupe-idioma">
                         <p>Idioma</p>
                         <div className="idioma">
-                            <p>Espanhol</p>
-                            <span>Básico</span>
-                        </div>
-                        <div className="idioma">
                             <p>Inglês</p>
                             <span>Básico</span>
                         </div>

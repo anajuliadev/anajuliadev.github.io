@@ -5,7 +5,7 @@ const Experiencia = () => {
         <div className="page-width">
             <div className="pai-experiencia">
                 <div className="info-title">
-                    <h3>Experiência</h3>
+                    <h3>Experiências</h3>
                 </div>
                 <div className="pai-cargo">
                     
@@ -13,14 +13,14 @@ const Experiencia = () => {
                         <rect width="16" height="16" rx="8" fill="#D9D9D9"/>
                     </svg>
                     <div className="info-experiencia">
-                        <h4 className="cargo">Desenvolvedor</h4>
+                        <h4 className="cargo">Jovem Aprendiz</h4>
                         <div className="agrupe-cargo">
-                            <h5 className="empresa">sei la onde, lugar ai</h5>
+                            <h5 className="empresa">Fortes Tecnologia</h5>
                             <div className="button">
-                                <p>Presente</p>
+                                <p>Atual</p>
                             </div>
                         </div>
-                        <p className="atividades-cargo">Organização da loja, gerenciamento do estoque utilizando planilhas, divulgação de produtos nas redes sociais, vendas, atendimento na loja física e online.</p>
+                        <p className="atividades-cargo"></p>
                     </div>
                     
                 </div>
@@ -30,11 +30,11 @@ const Experiencia = () => {
                         <rect width="16" height="16" rx="8" fill="#D9D9D9"/>
                     </svg>
                     <div className="info-experiencia">
-                        <h4 className="cargo">Desenvolvedor</h4>
+                        <h4 className="cargo">Assistente</h4>
                         <div className="agrupe-cargo">
-                            <h5 className="empresa">sei la onde, lugar ai</h5>
+                            <h5 className="empresa">Flávio Cell</h5>
                             <div className="button">
-                                <p>Presente</p>
+                                <p>10/2022 - 05/2023</p>
                             </div>
                         </div>
                         <p className="atividades-cargo">Organização da loja, gerenciamento do estoque utilizando planilhas, divulgação de produtos nas redes sociais, vendas, atendimento na loja física e online.</p>
