@@ -11,11 +11,9 @@
     font-weight: 500;
 }
 .tipos-linguagem{
-    display: flex;
-    flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit  , minmax(220px , 1fr));
     gap: 20px;
-    width: 100%;
-
 }
 .tipo{
     display: flex;
