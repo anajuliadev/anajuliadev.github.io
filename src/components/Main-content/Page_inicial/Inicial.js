@@ -7,14 +7,15 @@ const Inicial = () => {
             
             <div className="cabecalho-info">
                 <div className="info-inicial">
-                    <p className="apresentacao">Oi, sou a</p>
-                    <p className="name">Ana Julia</p>
+                    <p className="apresentacao">Olá, me chamo</p>
+                    <p className="name">Ana Júlia</p>
                 </div>
                 <div className="info-area">
                     <p>front-end developer</p>
                 </div>
                 <div className="info-descricao">
-                    <p>Tenho 20 anos e estou cursando Análise e Desenvolvimento de Sistemas. Atualtemente estou estudando para me aprofundar mais na área de desenvolvimento front-end.</p>
+                    <p>Tenho 20 anos e estou cursando Análise e Desenvolvimento de Sistemas.</p>
+                        <span><p>Atualmente estou estudando para me aprofundar mais na área de desenvolvimento front-end e futuramente me especializar no assunto.</p></span>
                 </div>
                 <div className="info-linguagens">
                     <p>HTML5 // CSS // Git // GitHub // JavaScript // React</p>

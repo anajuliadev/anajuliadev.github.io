@@ -18,7 +18,7 @@ const Menu = () => {
                         </div>
                         <div className="agrupe-numero">
                             <p>Telefone</p>
-                            <a href="tel:5585994306177">+55 (85) 99430-6177</a>
+                            <a href="tel:5585994306177">(85) 99430-6177</a>
                         </div>
                     </div>
                     <div className="agrupe-idioma">
