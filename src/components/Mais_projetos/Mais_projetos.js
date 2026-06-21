@@ -8,7 +8,7 @@ const Maisprojetos = () => {
             <div className="pai-menu">
                 <div className="info-menu">
                     <div className="name-menu">
-                        <p>Ana Júlia</p>
+                        <h2>Ana Júlia</h2>
                     </div>
                     <div className="cargo-menu">
                         <p>Front-End Developer</p>

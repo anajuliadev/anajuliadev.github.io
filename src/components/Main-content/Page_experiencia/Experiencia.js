@@ -5,7 +5,7 @@ const Experiencia = () => {
         <div className="page-width">
             <div className="pai-experiencia">
                 <div className="info-title">
-                    <h3>Experiências</h3>
+                    <h2>Experiências</h2>
                 </div>
                 <div className="pai-cargo">
                     
@@ -13,9 +13,9 @@ const Experiencia = () => {
                         <rect width="16" height="16" rx="8" fill="#D9D9D9"/>
                     </svg>
                     <div className="info-experiencia">
-                        <h4 className="cargo">Jovem Aprendiz</h4>
+                        <h3 className="cargo">Jovem Aprendiz</h3>
                         <div className="agrupe-cargo">
-                            <h5 className="empresa">Fortes Tecnologia</h5>
+                            <h4 className="empresa">Fortes Tecnologia</h4>
                             <div className="button">
                                 <p>Atual</p>
                             </div>
@@ -30,9 +30,9 @@ const Experiencia = () => {
                         <rect width="16" height="16" rx="8" fill="#D9D9D9"/>
                     </svg>
                     <div className="info-experiencia">
-                        <h4 className="cargo">Assistente</h4>
+                        <h3 className="cargo">Assistente</h3>
                         <div className="agrupe-cargo">
-                            <h5 className="empresa">Flávio Cell</h5>
+                            <h4 className="empresa">Flávio Cell</h4>
                             <div className="button">
                                 <p>10/2022 - 05/2023</p>
                             </div>

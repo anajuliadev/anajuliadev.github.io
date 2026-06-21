@@ -8,7 +8,7 @@ const Projetos = () => {
         <div className="page-width">
             <div className="pai-projeto">
                 <div className="info-title">
-                    <h3>Projetos</h3>
+                    <h2>Projetos</h2>
                 </div>
                 <div className="agrupe-projetos">
                     <div className="projetos">
@@ -17,7 +17,7 @@ const Projetos = () => {
                         </div>
                         <div className="pai-info-projeto">
                             <div className="info-projeto">
-                                <h4>Catbus</h4>
+                                <h3>Catbus</h3>
                                 <p>Um mini game jump do filme Meu amigo Totoro</p>
                             </div>
                             <div className="button-projeto">
@@ -32,7 +32,7 @@ const Projetos = () => {
                         </div>
                         <div className="pai-info-projeto">
                             <div className="info-projeto">
-                                <h4>Clone Spotify</h4>
+                                <h3>Clone Spotify</h3>
                                 <p>Um clone do spotify resultado das aulas da imersão front-end da alura</p>
                             </div>
                             <div className="button-projeto">

@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import Menu from './components/Main-content/Menu/Menu';
 import Main from './components/Main-content/Main';
 import Maisprojetos from './components/Mais_projetos/Mais_projetos';
